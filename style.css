@@ -32,3 +32,9 @@ font-size: 30px;
 background: white;
 border-radius: 5px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
