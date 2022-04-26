@@ -1,17 +1,48 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 
+
+
 body {
     background-image:url('background.png');
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size: 100%;
     
 }
 
+body {
+    background-image:url('background.png');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position;
+}
 
 
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
 
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
+.topnav a:hover {
+    background-color: rgb(18, 120, 184);
+    color: black;
+}
 
+.box{
+padding: 200px;
+text-align: left;
+font-size: 30px;
+background: white;
+border-radius: 5px;
+} 
 
 section {
     position: relative;
@@ -28,14 +59,16 @@ section div
     overflow: hidden;
 }
 
+
 section div h2
 {
-    color: aliceblue;
+    color: black;
     position: absolute;
     white-space: nowrap;
     font-size: 1em;
-    animation: animate 80s linear infinite;
+    animation: animate 300s linear infinite;
 }
+
 
 @keyframes animate
 {
@@ -48,13 +81,3 @@ section div h2
         transform: translateX(-100%);
     }
 }
-
-
-
-
-
-
-
-
-
-
