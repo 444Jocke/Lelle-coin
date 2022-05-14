@@ -9,12 +9,6 @@ body {
     
 }
 
-body {
-    background-image:url('background.png');
-    background-repeat:no-repeat;
-    background-size: 100%;
-    background-position;
-}
 
 
 .topnav {
@@ -37,12 +31,12 @@ body {
 }
 
 .box{
-padding: 200px;
-text-align: left;
-font-size: 30px;
-background: white;
-border-radius: 5px;
-} 
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    background: white;
+    border-radius: 5px;
+    } 
 
 section {
     position: relative;
@@ -81,3 +75,35 @@ section div h2
         transform: translateX(-100%);
     }
 }
+
+#clickbox {
+    display: flex;
+    justify-content: center;
+}
+
+#counter {
+    margin-top: 3px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 3px 2px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+}
+
+#counter div {
+    text-align: center;
+}
+
+button {
+    min-width: 25px;
+    min-height: 50px;
+    padding: 100px;
+}
+
+#counter-plus:active {
+    transform: scale(1.2);
+}
+
